@@ -1,0 +1,55 @@
+# ===== Entornos virtuales =====
+venv/
+.venv/
+env/
+ENV/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===== Datos generados (no versionar salidas del scraper) =====
+data/
+logs/
+muestras/
+
+# ===== Archivos de scraping / caché =====
+*.csv
+*.json
+*.xlsx
+*.parquet
+*.html
+*.log
+!requirements.json        # por si quieres conservar algún JSON de config
+
+# ===== VS Code =====
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ===== Jupyter (si lo usas) =====
+.ipynb_checkpoints/
+
+# ===== Entorno / secretos =====
+.env
+.env.*
+*.env
+
+# ===== Sistema operativo =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Misc =====
+*.bak
+*.tmp
+*.swp
